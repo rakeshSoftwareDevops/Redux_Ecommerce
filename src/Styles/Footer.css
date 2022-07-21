@@ -1,0 +1,7 @@
+.footer_container{
+    background-color: grey;
+    height: 70px;
+    width: 100%;
+    bottom: 0px; 
+    position: fixed;
+}

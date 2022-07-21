@@ -1,0 +1,7 @@
+.Product-Component{
+    margin-top: 60px;
+  /**background-color: grey;*/
+}
+.view_Product:hover{
+    color: red;
+}
