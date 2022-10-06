@@ -9,10 +9,11 @@ const HeaderComponent =()=>{
             <div className = 'Heading_Style'>
             <Link exact to="/">
                 <Header as='h1' textAlign='left'>
-                        ReduxEcomm
+                        AwDeals
                 </Header>
              </Link>
             </div>
+            <p className='sub-heading'>Awesome Deals for you</p>
         </div>
     )
 }

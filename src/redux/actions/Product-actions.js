@@ -22,3 +22,11 @@ export const removeProducts = ()=>{
     };
 
 };
+
+export const setappAuthentication = (flag)=>{
+    return{
+        type: ProductActionTypes.SET_AUTHENTICATION_FLAG,
+        payload: flag
+    };
+
+};

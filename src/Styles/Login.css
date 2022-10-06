@@ -1,0 +1,20 @@
+.real-container{ 
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100vh;
+    position: relative;
+
+} 
+.login-container{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+    .login-container {
+        width: 80%
+    }
+  }

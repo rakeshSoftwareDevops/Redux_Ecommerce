@@ -38,12 +38,12 @@ const ProductDetail =()=>{
                 ):(
                     <Grid>
                     <Grid.Row>
-                        <Grid.Column width={5}>
+                        <Grid.Column  mobile={13} tablet={5} computer={4}>
                             <Card fluid={true}>
                                 <Image src={image} wrapped ui={false} />
                             </Card>
                         </Grid.Column>  
-                        <Grid.Column width={10} className='product_cart'>
+                        <Grid.Column  mobile={16} tablet={8} computer={10} className='product_cart'>
                             <Card fluid={true}>
                                 <Card.Header>
                                   <Header as='h1'>{title}</Header>

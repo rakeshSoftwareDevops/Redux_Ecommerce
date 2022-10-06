@@ -1,7 +1,8 @@
 import {ProductActionTypes} from '../constants/Product-action-types';
 
 const initialState = {
-   productList: []
+   productList: [],
+   authenticatedFlag: false
 }
 
 //Initially here will be existing data 
@@ -9,6 +10,10 @@ export const productReducer = (state = initialState, action) =>{
     switch(action.type){
         case ProductActionTypes.ALL_PRODUCTS:
             return {...state, productList: action.payload};
+        case ProductActionTypes.ALL_PRODUCTS:
+                return {...state, productList: action.payload};
+        case ProductActionTypes.SET_AUTHENTICATION_FLAG:
+                return {...state, authenticatedFlag: action.payload};
         default:
             return state;
 

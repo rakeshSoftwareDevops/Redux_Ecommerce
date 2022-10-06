@@ -3,7 +3,7 @@ import ProductComponent from './ProductComponent';
 import axios from 'axios';
 import { useEffect } from "react";
 import { allProducts } from '../redux/actions/Product-actions'
-
+import NavbarComponent from "./NavbarComponent";
 
 const Allproducts = ()=>{
     const products = useSelector((state) => state);
